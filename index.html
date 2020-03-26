@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-head-react="true">
+  <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-head-react="true">
+  <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-head-react="true">
+  <style>
+    h2 {
+      font-size: 20px;
+      text-align: center;
+      font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    }
+    body {
+      background-color: #e7e7e7;
+    }
+    p {
+      text-align: right;
+    }
+    a {
+      text-decoration: none;
+      color: #424242;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <h2>About 1</h2>
+    <wc-about title="O que mais vale é você" text="Paragraph" img="https://http2.mlstatic.com/D_NQ_NP_2X_972851-MLA30979060754_062019-N.webp"></wc-about>
+    <h2>About 2</h2>
+    <wc-about title="O que mais vale é você" text="Paragraph" img="https://http2.mlstatic.com/D_NQ_NP_2X_972851-MLA30979060754_062019-N.webp"></wc-about>
+    <h2>About 3</h2>
+    <wc-about title="O que mais vale é você" text="Paragraph" img="https://http2.mlstatic.com/D_NQ_NP_2X_972851-MLA30979060754_062019-N.webp"></wc-about>
+    <h2>Disclaimer 1</h2>
+    <wc-disclaimer>
+      (1) Imágenes de referencia. Promoción válida para el territorio de la República Argentina para compras de productos seleccionados publicados en
+      https://www.mercadolibre.com.ar/ofertas/compra-desde-casa (el "Sitio Web"), realizadas entre el 16/03/2020 y el 31/12/2020. 
+      Ofertas a cargo de cada usuario vendedor, sujetas a disponibilidad de los productos ofertados y a las condiciones establecidas 
+      por el vendedor en el anuncio publicado en el Sitio Web. El Sitio Web https://www.mercadolibre.com.ar/ofertas/compra-desde-casa 
+      es operado por MercadoLibre S.R.L., Avenida Caseros 3039, piso 2, CABA, CUIT 30-70308853-4. (2) Costo Financiero Total (CFT) 0,00%. 
+      Tasa Nominal Anual (TNA) 0,00%. Cuotas para que aplique la promoción: 12, o 18 cuotas según indique cada producto. 
+      Promoción válida en Argentina, desde el 01/01/2020 al 31/03/2020, ambas fechas inclusive, exclusivamente para pagos online de 
+      productos nacionales seleccionados a través de la plataforma de Mercadolibre S.R.L. 
+      (disponible en https://ofertas.mercadolibre.com.ar/ahora-12), con tarjetas de crédito Mastercard, 
+      Visa y Cabal emitidas en la Argentina, y tarjetas de crédito American Express bancarias únicamente emitidas y 
+      administradas por bancos autorizados en la Argentina. Aplicable para tarjetas de crédito que se encuentren vigentes y
+      en estado de cumplimiento. Para mayor información visitar http://www.ahora12.gob.ar. Mercadolibre S.R.L., Avenida Caseros 3039, 
+      piso 2, CABA, 30-70308853-4.
+    </wc-disclaimer>
+    <h2>Disclaimer 2</h2>
+    <wc-disclaimer>
+      (1) Imágenes de referencia. Promoción válida para el territorio de la República Argentina para compras de productos seleccionados publicados en
+      https://www.mercadolibre.com.ar/ofertas/compra-desde-casa (el "Sitio Web"), realizadas entre el 16/03/2020 y el 31/12/2020. 
+    </wc-disclaimer>
+    <h2>Button 1</h2>
+    <div style="text-align: center;">
+      <wc-button url="https://www.mercadolibre.com.ar/ofertas#nav-header">Ver más</wc-button>
+    </div>
+    <h2>Button 2</h2>
+    <div style="text-align: center;">
+      <wc-button>Soy un botón</wc-button>
+    </div>
+    <h2>Carousel 1</h2>
+    <wc-carousel query="perros"></wc-carousel>
+    <h2>Carousel 2</h2>
+    <wc-carousel query="perfumes"></wc-carousel>
+    <h2>Componente básico</h2>
+    <wc-pablito></wc-pablito>
+    <p>Mas info en <a href="">Web Components</a></p>
+    <!-- EventBus -->
+    <script src="./splinter/effects/eventBus.js"></script>
+    <!-- Components -->
+    <script src="./splinter/components/about.js"></script>
+    <script src="./splinter/components/disclaimer.js"></script>
+    <script src="./splinter/components/button.js"></script>
+    <script src="./splinter/components/article.js"></script>
+    <script src="./splinter/components/carousel.js"></script>
+    <script src="./splinter/components/loader.js"></script>
+    <script src="./splinter/components/pablito.js"></script>
+</body>
+</html>

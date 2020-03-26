@@ -2,6 +2,10 @@
 
 Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
 
+# Example
+
+[Link](https://mtorre4580.github.io/web-components/index.html)
+
 # Concepts
 
 - Custom elements: A set of JavaScript APIs that allow you to define custom elements and their behaviour, which can then be used as desired in your user interface.
